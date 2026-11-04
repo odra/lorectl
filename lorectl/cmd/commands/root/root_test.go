@@ -43,8 +43,4 @@ func TestMain(t *testing.T) {
 	RegisterFailHandler(Fail)
 	RunSpecs(t, "Main Suite")
 }
-/*
-Expect(c.ParseFlags([]string{"--verbose"})).To(Succeed())
-        v, _ := c.Flags().GetBool("verbose")
-        Expect(v).To(BeTrue())
-*/
+
